@@ -1,0 +1,32 @@
+.select{
+
+  cursor: pointer;
+  &__value{
+    cursor: pointer;
+    &_is-empty{
+      &_true{
+        cursor: pointer;
+
+      }
+      &_false{
+
+        font-weight: 600;
+      }
+    }
+  }
+
+  &__options{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 5px 5px;
+    max-width: 500px;
+    padding: 10px 15px;
+
+    &-item{
+      padding: 5px 0;
+
+    }
+    cursor: pointer;
+
+  }
+}

@@ -1,0 +1,36 @@
+.header{
+  height: 152px;
+  padding-top: 20px;
+  padding-left: 30px;
+  border-bottom:1px solid #E8E8E8;
+
+  &__breadcrumbs{
+    font-size: 16px;
+    span{
+      position: relative;
+      top: 2px;
+    }
+
+  }
+
+  &__pretitle{
+    font-size: 16px;
+    color: #9F9F9F;
+    a{
+      color: black;;
+    }
+  }
+
+  &__title{
+    font-size: 22px;
+    color: #9F9F9F;
+    a{
+      color: black;;
+    }
+  }
+  &__posttitle{
+    font-size: 16px;
+    color: #9F9F9F;
+
+  }
+}

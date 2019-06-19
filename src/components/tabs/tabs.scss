@@ -1,0 +1,30 @@
+.tabs {
+  padding-left: 30px;
+  ul {
+    li {
+      float: left;
+
+    }
+  }
+}
+
+.react-tabs__tab-list {
+  display: inline-block !important;
+  border: none;
+}
+
+.react-tabs__tab{
+  font-size: 16px;
+  border: none;
+  text-align: left;
+  padding: 0 0 15px 0;
+  margin-right: 30px;
+}
+
+.react-tabs__tab--selected{
+  font-size: 16px;
+  color: #2749F1;
+  border-bottom: 3px solid #2749F1;
+}
+
+

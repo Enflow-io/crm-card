@@ -1,0 +1,30 @@
+.sidebar{
+  background: #333749;
+  &__logo{
+    width: 80px;
+    height: 80px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 6em;
+    img{
+      border-radius: 40px;
+
+      width: 80px;
+      height: 80px;
+    }
+
+
+
+}
+}
+.w3-sidebar{
+  .w3-button{
+    text-align: center !important;
+    color: white;
+  }
+}
+
+
+@media (max-width: 580px) {
+  .w3-sidebar {display: none;}
+}

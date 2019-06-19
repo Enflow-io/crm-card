@@ -1,0 +1,26 @@
+.form-page{
+  padding: 29px 0;
+  box-sizing: border-box;
+  height: calc(100vh - 280px) !important;
+  overflow: scroll;
+  &__bloc{
+    margin-bottom: 50px;
+  }
+  &__wide-btn{
+    display: block;
+  }
+  &__config{
+    cursor: pointer;
+    &-icon{
+      margin-right: 11px;
+    }
+    &:hover{
+      color: black;
+      transition: color .3s, transform .3s;
+    }
+    &:hover &-icon{
+      transition: transform 2s ease-in-out;
+      transform: rotate(1360deg);
+    }
+  }
+}

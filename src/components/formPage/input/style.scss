@@ -1,0 +1,23 @@
+.input{
+  cursor: pointer;
+
+  &__input{
+    border: none;
+    width: auto;
+    &:focus{
+      outline: none;
+    }
+
+  }
+  &__bar{
+    display: block;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    background-color: #3498db;
+    transition: 0.3s;
+    &_wide_true{
+      width: 100px;
+    }
+  }
+}

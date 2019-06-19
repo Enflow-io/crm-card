@@ -1,0 +1,30 @@
+.tr{
+  display: flex;
+  &__label{
+    flex-grow: 1;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #9F9F9F;
+  }
+  &__content{
+    flex-grow: 0;
+    width: 500px;
+    @media screen and (max-width: 1800px){
+      width: 300px;
+    }
+    @media screen and (max-width: 1400px){
+      width: 200px;
+    }
+  }
+
+  &__helper{
+    width: 100px;
+    @media screen and (max-width: 1500px){
+      display: none;
+    }
+  }
+  &+&{
+    margin-top: 10px;
+  }
+}

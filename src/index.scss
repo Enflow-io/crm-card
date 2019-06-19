@@ -1,0 +1,29 @@
+@import "reset";
+
+
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-style: $style;
+
+    src: url("#{$file-path}.woff") format("woff")
+  }
+}
+
+@include font-face('OpenSans-Medium', '/public/OpenSans-Medium');
+@include font-face('OpenSans-Regular', '/public/OpenSans-Regular');
+
+body {
+  margin: 0;
+  font-family: "OpenSans-Regular";
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+

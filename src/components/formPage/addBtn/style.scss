@@ -1,0 +1,33 @@
+.add-btn{
+  $this:&;
+  font-size: 14px;
+  line-height: 19px;
+  box-sizing: border-box;
+  color: #9F9F9F;
+  cursor: pointer;
+  &__input-file{
+    display: none;
+  }
+  &__icon{
+    margin-right: 11px;
+
+  }
+  &:hover{
+    color: black;
+    transition: color .3s;
+
+  }
+  &:hover &__icon{
+    transition: transform .3s;
+    transform: rotate(360deg);
+    filter: invert(1);
+  }
+
+  &_wide_true{
+    display: block;
+  }
+
+  & + & {
+    margin-top: 7px;
+  }
+}

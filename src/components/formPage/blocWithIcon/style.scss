@@ -1,0 +1,14 @@
+.bloc-with-icon{
+  display: flex;
+  align-items: flex-start;
+  margin: 25px 0;
+  &__icon{
+    padding-top: 2px;
+    display: block;
+
+    margin-right: 15px;
+  }
+  &__content{
+    flex-grow: 1;
+  }
+}

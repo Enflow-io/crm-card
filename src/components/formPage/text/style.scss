@@ -1,0 +1,16 @@
+.text{
+  font-size: 14px;
+  line-height: 19px;
+  color:#9F9F9F;
+
+  &_black_true{
+    color:#23292F;
+  }
+
+  &_big_true{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+  }
+
+}
